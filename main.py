@@ -91,7 +91,9 @@ if __name__ == "__main__":
     b = n % 1000
     res2 = hundred_numbers(b, False)
     result += res2
-    if b % 10 == 1:
+    if 5 <= b % 100 <= 20:
+        result += rubles[2]
+    elif b % 10 == 1:
         result += rubles[0]
     elif b % 10 == 2 or b % 10 == 3 or b % 10 == 4:
         result += rubles[1]
