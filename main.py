@@ -80,9 +80,11 @@ if __name__ == "__main__":
         a = n // 1000
         res1 = hundred_numbers(a, True)
         result += res1
-        if a % 10 == 1:
+        if 5 <= a % 100 <= 20:
+            result += thousands[2] + " "
+        elif a % 10 == 1:
             result += thousands[0] + " "
-        elif a % 10 == 2 or a % 10 == 3 or a % 10 == 4:
+        elif a % 10 in [2, 3, 4]:
             result += thousands[1] + " "
         else:
             result += thousands[2] + " "
