@@ -7,6 +7,8 @@ author: Chernyakov M.
 
 This python script translates numbers to real text!!!
 
+Во второй ветке решение попроще [вот тут](https://github.com/mruax/PP_labwork04_ATM/tree/easy_version)
+
 # Run
 
 `python main.py`
