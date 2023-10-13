@@ -21,7 +21,7 @@ def hundred_numbers(a, flag):
 
 if __name__ == "__main__":
     n = input("Введите сумму от 1 до 100000: ")
-    while type(n) is str:
+    while isinstance(n, str):
         try:
             n = int(n)
             if not (1 <= n <= 100000):
