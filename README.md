@@ -15,3 +15,4 @@ or your IDE default run algorythm
 
 # Examples
 
+![Example image 1](https://github.com/mruax/PP_labwork04_ATM/blob/master/scr/example1.png?raw=true)
